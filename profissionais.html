@@ -17,7 +17,7 @@
         <div id="usuarioInfo">
             <span>Usuário: Administrador (Admin)</span>
             <span>Papel: ADMIN</span>
-            <a href="javascript:void(0)">Logout</a>
+            <a href="javascript:void(0)" class="botao">Logout</a>
         </div>
     </header>
 
@@ -36,21 +36,21 @@
 
     <main>
         <form action="#">
-            <div>
+            <div class="grid">
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite aqui..."><br><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite aqui..." required>
 
                 <label for="registroConselho">Registro</label>
-                <input type="text" name="registroConselho" id="registro"><br><br>
+                <input type="text" name="registroConselho" id="registro" placeholder="Digite aqui...">
 
                 <label for="especialidade">Especialidade</label>
-                <select name="especialidade" id="especialidade">
-                    <option value="1">Especialidade 1</option>
+                <select name="especialidade" id="especialidade" required>
+                    <option></option>
                     <option value="2">Especialidade 2</option>
                     <option value="3">Especialidade 3</option>
                     <option value="4">Especialidade 4</option>
                     <option value="5">Especialidade 5</option>
-                </select><br><br>
+                </select>
                 
                 <label for="unidade">Unidade</label>
                 <select name="unidade" id="unidade">
@@ -59,14 +59,16 @@
                     <option value="3">Especialidade 3</option>
                     <option value="4">Especialidade 4</option>
                     <option value="5">Especialidade 5</option>
-                </select><br><br>
+                </select>
                 
                 <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="telefone"><br><br>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite aqui...">
                 
                 <label for="email">E-mail</label>
-                <input type="text" name="email" id="email"><br><br>
+                <input type="text" name="email" id="email" placeholder="Digite aqui...">
             </div>
+            <input type="button" value="Cancelar">
+            <input type="submit" value="Salvar">
         </form>
 
         <table>
@@ -84,7 +86,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>texto 1</td>
+                    <td class="fit">1</td>
                     <td>texto 2</td>
                     <td>texto 3</td>
                     <td>texto 4</td>
@@ -92,12 +94,12 @@
                     <td>texto 6</td>
                     <td>texto 7</td>
                     <td>
-                        <a href="javascript:void(0)">Editar</a>
-                        <a href="javascript:void(0)">Excluir</a>
+                        <a href="javascript:void(0)" class="botao">Editar</a>
+                        <a href="javascript:void(0)" class="botao excluir">Excluir</a>
                     </td>
                 </tr>
                 <tr>
-                    <td>texto 1</td>
+                    <td class="fit">2</td>
                     <td>texto 2</td>
                     <td>texto 3</td>
                     <td>texto 4</td>
@@ -105,12 +107,12 @@
                     <td>texto 6</td>
                     <td>texto 7</td>
                     <td>
-                        <a href="javascript:void(0)">Editar</a>
-                        <a href="javascript:void(0)">Excluir</a>
+                        <a href="javascript:void(0)" class="botao">Editar</a>
+                        <a href="javascript:void(0)" class="botao excluir">Excluir</a>
                     </td>
                 </tr>
                 <tr>
-                    <td>texto 1</td>
+                    <td class="fit">3</td>
                     <td>texto 2</td>
                     <td>texto 3</td>
                     <td>texto 4</td>
@@ -118,12 +120,12 @@
                     <td>texto 6</td>
                     <td>texto 7</td>
                     <td>
-                        <a href="javascript:void(0)">Editar</a>
-                        <a href="javascript:void(0)">Excluir</a>
+                        <a href="javascript:void(0)" class="botao">Editar</a>
+                        <a href="javascript:void(0)" class="botao excluir">Excluir</a>
                     </td>
                 </tr>
                 <tr>
-                    <td>texto 1</td>
+                    <td class="fit">4</td>
                     <td>texto 2</td>
                     <td>texto 3</td>
                     <td>texto 4</td>
@@ -131,12 +133,12 @@
                     <td>texto 6</td>
                     <td>texto 7</td>
                     <td>
-                        <a href="javascript:void(0)">Editar</a>
-                        <a href="javascript:void(0)">Excluir</a>
+                        <a href="javascript:void(0)" class="botao">Editar</a>
+                        <a href="javascript:void(0)" class="botao excluir">Excluir</a>
                     </td>
                 </tr>
                 <tr>
-                    <td>texto 1</td>
+                    <td class="fit">5</td>
                     <td>texto 2</td>
                     <td>texto 3</td>
                     <td>texto 4</td>
@@ -144,8 +146,8 @@
                     <td>texto 6</td>
                     <td>texto 7</td>
                     <td>
-                        <a href="javascript:void(0)">Editar</a>
-                        <a href="javascript:void(0)">Excluir</a>
+                        <a href="javascript:void(0)" class="botao">Editar</a>
+                        <a href="javascript:void(0)" class="botao excluir">Excluir</a>
                     </td>
                 </tr>
             </tbody>
