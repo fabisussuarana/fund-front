@@ -255,3 +255,19 @@ a.botao.excluir{
 a.botao.excluir:hover{
     background-color: #811b1b;
 }
+
+/* Main */
+
+main{
+    padding: 1em;
+    background-image: linear-gradient(#cccccc, white);
+}
+
+/* Comandos */
+
+div#comandos{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0.1em;
+    flex-wrap: wrap;
+}
