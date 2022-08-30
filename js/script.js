@@ -49,7 +49,7 @@ window.onload = function(){
                         acoes.innerHTML = `<a href="javascript:void(0)" class="botao">Editar</a>\n
                         <a href="javascript:void(0)" class="botao excluir">Excluir</a>`
 
-                        linha.appendChild(id)
+                        linha.appendChild(id) /* Significa que vai ser adicionado após a última linha */
                         linha.appendChild(nome)
                         linha.appendChild(registro)
                         linha.appendChild(especialidade)
