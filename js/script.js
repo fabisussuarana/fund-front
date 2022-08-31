@@ -21,7 +21,7 @@ window.onload = function(){ /* onload - para executar o script depois de todo o 
         })
     })
 
- //   let xhr = new XMLHttpRequest()
+ //   let xhr = new XMLHttpRequest()   ------> Fazendo uma solicitação HTTP
 
  /* XMLHttpRequest() permite transferir dados entre um cliente e servidor. 
     Ele recupera os dados de uma url sem ter que recarregar a página toda */
